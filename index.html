@@ -15,6 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
 
     <div id="slides">
 
@@ -35,6 +38,30 @@
             <a href="#" class="prev"></a>
         </nav>
     </div>
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Shotaro Matsuya</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <div id="about" class="section">
         <div class="container">
             <div class="row">
@@ -379,6 +406,11 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="copyrightSection">
+        <div class="col-md-12 text-center">
+            <p>&copy; Copyright Shotaro Matsuya 2020</p>
         </div>
     </div>
 
